@@ -1,0 +1,441 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+.header-text {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .header-text h1 {
+    font-size: 3rem;
+    font-family: 'Great Vibes', cursive;
+    color: #b30059;
+    margin-bottom: 0.2rem;
+  }
+  
+  .header-text h2 {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #7a0044;
+    margin-bottom: 0.3rem;
+  }
+  
+  .header-text .date {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff5f5;
+    color: #444;
+  }
+  
+  
+  .container {
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    margin-top: 40px;
+  }
+  
+  
+  h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    color: #b30059;
+    margin-bottom: 0.5rem;
+  }
+  h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #7a0044;
+  }
+  
+  
+  
+  .date {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .section {
+    background-color: #fff0f5;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  
+
+  .couple-photo {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 16px;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .countdown-box {
+    background: #ffe8e8;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  #countdown {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d94f4f;
+    margin-top: 10px;
+  }
+  a {
+    color: #d94f4f;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .bible-verse {
+    text-align: center;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #555;
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+  
+  .bible-verse .verse-ref {
+    font-size: 0.8rem;
+    color: #777;
+  }
+  .invitation-text {
+    max-width: 750px;
+    margin: 50px auto;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    line-height: 1.9;
+    color: #3e3e3e;
+    text-align: center;
+    padding: 30px 25px;
+    border: 5px double #b89f85;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    background: #fffdf8;
+    font-weight: 500;
+  }
+  
+  .invitation-text .names {
+    font-size: 1.6rem;
+    font-family: 'Great Vibes', cursive;
+    color: #aa5a5a;
+    font-weight: 400;
+  }
+  .venue-section {
+    max-width: 800px;
+    margin: 60px auto 40px;
+    text-align: center;
+    background: #fefefe;
+    padding: 30px 20px;
+    border-radius: 20px;
+    border: 2px dashed #d7c7b9;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+  }
+  
+  .venue-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .church-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+  
+  .map-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #3171e0;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .map-thumbnail {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+  }
+  .venue-section {
+    text-align: center;
+    margin: 50px auto 30px;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  .venue-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .church-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    color: #2a2a2a;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .divider {
+    width: 60px;
+    height: 4px;
+    background: #d4af37; /* royal gold */
+    margin: 0 auto;
+    border-radius: 2px;
+  }
+  .map-wrapper {
+    background: #fffdf9;
+    border: 2px solid #e0d6c7;
+    border-radius: 20px;
+    padding: 30px 20px;
+    margin: 40px auto;
+    max-width: 800px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+    text-align: center;
+  }
+  
+  .map-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .map-header .church-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+  
+  .map-embed iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .map-wrapper .venue-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    color: #555;
+    margin: 0;
+  }
+  
+  .map-wrapper .church-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.2rem;
+    color: #2a2a2a;
+    font-weight: bold;
+    margin: 5px 0 10px;
+  }
+  
+  .map-wrapper .divider {
+    width: 60px;
+    height: 4px;
+    background: #d4af37;
+    margin: 0 auto;
+    border-radius: 2px;
+  }
+  .scroll-style {
+    font-family: 'Cormorant Garamond', serif;
+    background: #fffdf9;
+    border: 2px solid #e3d9c3;
+    border-radius: 20px;
+    padding: 30px 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    margin: 60px auto;
+    max-width: 800px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .scroll-style::before,
+  .scroll-style::after {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #fffdf9;
+    border: 2px solid #e3d9c3;
+    border-radius: 50%;
+    top: -20px;
+    left: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+  
+  .scroll-style::after {
+    left: auto;
+    right: 20px;
+  }
+  .map-datetime {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.0rem;
+    color: #444;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .gold-divider {
+    width: 80px;
+    height: 4px;
+    background: #d4af37; /* royal gold */
+    margin: 20px auto;
+    border-radius: 2px;
+  }
+  .lunch-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.6rem;
+    color: #6b4c3b;
+    margin-top: 30px;
+    margin-bottom: 12px;
+  }
+  .lunch-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .lunch-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.6rem;
+    color: #6b4c3b;
+    margin-top: 0;
+    margin-bottom: 12px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .soft-divider {
+    width: 50%;
+    height: 2px;
+    background: #e6d9c4;
+    margin: 30px auto 0;
+    border-radius: 2px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .map-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    animation: fadeIn 1.5s ease;
+
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .dancing-icon {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    animation: dancePop 1.5s ease-in-out;
+  }
+  
+  .dancing-icon img {
+    width: 60px;
+    height: 60px;
+    opacity: 0.85;
+    transition: transform 0.3s ease;
+  }
+  
+  .dancing-icon img:hover {
+    transform: scale(1.2) rotate(5deg);
+  }
+  
+  /* Optional: Cute little dance entrance */
+  @keyframes dancePop {
+    0% {
+      opacity: 0;
+      transform: scale(0.6) rotate(-10deg);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) rotate(0deg);
+    }
+  }
+  @media (max-width: 600px) {
+    .venue-info {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .map-embed iframe {
+      width: 100% !important;
+      height: 250px;
+    }
+  
+    .invitation-box {
+      padding: 20px 10px;
+    }
+  
+    .church-name {
+      font-size: 1.5rem;
+    }
+  
+    .map-datetime {
+      font-size: 1.2rem;
+    }
+  
+    .lunch-heading {
+      font-size: 1.3rem;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
